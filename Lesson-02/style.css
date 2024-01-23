@@ -1,0 +1,54 @@
+@charset "UTF-8";
+/* Custom Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;500;600&display=swap');
+body {
+	font-family: 'Quicksand', sans-serif;
+	line-height: 140%;
+	margin: 15px 20px;
+}
+.mainContainer {
+	margin: 50px 30px;
+}
+/* BASE - H1-H6 Styles */
+/* reset styles */
+table {
+  border-collapse: collapse;
+  width: 100%;
+  border: 1px solid;
+}
+th, td {
+  padding: 10px;
+	font-size: 14px;
+	line-height: 120%;
+	border: 1px solid #ddd;
+}
+th {
+  background-color: #828282;
+  color: white;
+  text-align: center;
+}
+tr:hover {
+	background-color: #ddd;
+}
+td.col1 {
+	width: 20%;
+}
+td.col2 {
+	width: 45%;
+}
+td.col3 {
+	width: 35%;
+	padding: 0;
+	margin: 0;
+}
+ol {
+	list-style-position: outside;
+	margin: 0px 25px;
+  padding: 0px;
+	font-size: 10px;
+	line-height: 140%;
+}
+hr {
+  border: 10px solid #ddd;
+  border-radius: 1px;
+}
