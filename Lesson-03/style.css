@@ -1,0 +1,118 @@
+@charset "UTF-8";
+/* Custom Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;500;600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital@0;1&display=swap');
+body {
+  font-family: 'Quicksand', sans-serif;
+  font-size: 16px;
+  line-height: 1.6;
+  color: #333; /* Adjust color as needed */
+	margin: 15px 20px;
+}
+/* Use Montserrat for headings */
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 700; /* Adjust font weight as needed */
+  color: #222; /* Adjust color as needed */
+}
+/* Add some spacing and styling for better readability */
+h1 { font-size: 2em; }
+h2 { font-size: 1.5em; }
+h3 { font-size: 1.2em; }
+/* Add more styling for h4, h5, h6 if needed */
+
+/* Example styling for links */
+a {
+  color: #007BFF; /* Adjust link color as needed */
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+.caption {
+	font-size: 13px;
+	padding-top: 0;
+	margin-top: 0;
+}
+.mainContainer {
+	margin: 100px 30px;
+}
+/* BASE - H1-H6 Styles */
+/* reset styles */
+table {
+  border-collapse: collapse;
+  width: 100%;
+  border: 1px solid;
+}
+th, td {
+  padding: 10px;
+	font-size: 14px;
+	line-height: 120%;
+	border: 1px solid #ddd;
+}
+th {
+  background-color: #828282;
+  color: white;
+  text-align: center;
+}
+tr:hover {
+	background-color: #ddd;
+}
+td.col1 {
+	width: 20%;
+}
+td.col2 {
+	width: 45%;
+}
+td.col3 {
+	width: 35%;
+	padding: 0;
+	margin: 0;
+}
+ol {
+	list-style-position: outside;
+	margin: 0px 25px;
+  padding: 0px;
+	font-size: 10px;
+	line-height: 140%;
+}
+hr {
+  border: 1px solid #ddd;
+  border-radius: 1px;
+}
+figure {
+	width: 204px;
+	max-width: 204px;
+	border: 1px solid #3E3E3E;
+	padding: 5px;
+}
+details > summary {
+  padding: 4px;
+  background-color: #eeeeee;
+  border: none;
+  box-shadow: 1px 1px 2px #bbbbbb;
+  cursor: crosshair;
+}
+details > p {
+  background-color: #eeeeee;
+  padding: 4px;
+  margin: 0;
+  box-shadow: 1px 1px 2px #bbbbbb;
+}
+.crosshair {cursor: crosshair;}
+nav ul {
+	list-style-type: none;
+	margin: 0;
+	padding: 0
+}
+nav li {
+	display: inline;
+	float: left;
+}
+nav li a {
+	display: block;
+  padding: 8px;
+  background-color: #dddddd;
+}
