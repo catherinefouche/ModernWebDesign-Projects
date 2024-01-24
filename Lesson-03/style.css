@@ -3,10 +3,10 @@
 @import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;500;600&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:ital@0;1&display=swap');
 body {
-  font-family: 'Quicksand', sans-serif;
-  font-size: 16px;
-  line-height: 1.6;
-  color: #333;
+	font-family: 'Quicksand', sans-serif;
+	font-size: 16px;
+	line-height: 1.6;
+	color: #333333;
 	margin: 15px 20px;
 	max-width: 1440px;
 }
@@ -83,7 +83,7 @@ th, td {
   padding: 10px;
 	font-size: 14px;
 	line-height: 120%;
-	border: 1px solid #ddd;
+	border: 1px solid #dddddd;
 }
 th {
   background-color: #828282;
@@ -91,7 +91,7 @@ th {
   text-align: center;
 }
 tr:hover {
-	background-color: #ddd;
+	background-color: #dddddd;
 }
 td.col1 {
 	width: 20%;
@@ -116,7 +116,7 @@ ol {
 }
 
 hr {
-  border: 1px solid #ddd;
+  border: 1px solid #dddddd;
   border-radius: 1px;
 }
 figure {
@@ -149,7 +149,7 @@ nav ul {
 	margin: 0;
 	padding: 0;
 	overflow: hidden;
-  background-color: #333;
+  background-color: #333333;
 }
 nav li {
 	display: inline;
@@ -163,6 +163,6 @@ nav li a {
   text-decoration: none;
 }
 li a:hover {
-  background-color: #111;
+  background-color: #111111;
 	text-decoration: none;
 }
